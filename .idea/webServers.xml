@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="bc3251b8-aaee-4da3-8971-b537f1d74db8" name="dx">
+        <fileTransfer accessType="SFTP" host="172.16.72.230" port="22" sshConfigId="242d05f3-ae0b-4023-9212-3b7e3727cd6f" sshConfig="chenhaorong@172.16.72.230:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="8805551b-e440-41d6-9a0a-f6fe00c98862" name="duxueya">
+        <fileTransfer rootFolder="/data/dx_project" accessType="SFTP" host="111.44.254.166" port="52386" sshConfigId="15f2c32a-2238-4dbc-b12f-da56548351f8" sshConfig="root@111.44.254.166:52386 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
